@@ -93,7 +93,7 @@ $$
 \mathrm{d}X_t = - \eta \nabla f(X_t)\mathrm{d}t + \mathrm{d}B_t
 $$
 
-可以证明，这个 Markov process 的稳态为 $p(x) \propto e^{-f(x)}$，这也正是 [Energy-Based Model (EBM)](../../../../Notes/Courses/Stanford%20CS236/Energy-Based%20Model%20(EBM).md) 中的形式，联系着 [Energy-Based Model (EBM)](../../../../Notes/Courses/Stanford%20CS236/Energy-Based%20Model%20(EBM).md)、[Score-based Model](../../../../Notes/Courses/Stanford%20CS236/Score-based%20Model.md) 和 [Diffusion Model](../../../../Notes/Courses/Stanford%20CS236/Diffusion%20Model.md)
+可以证明，这个 Markov process 的稳态为 $p(x) \propto e^{-f(x)}$，这也正是 [Energy-Based-Model-(EBM)](../CS236/Energy-Based-Model-(EBM).md) 中的形式，联系着 [Energy-Based-Model-(EBM)](../CS236/Energy-Based-Model-(EBM).md)、[Score-based-Model](../CS236/Score-based-Model.md) 和 [Diffusion-Model](../CS236/Diffusion-Model.md)
 
 基于此，可以证明，如果想要从 $p(x)$ 中取样，只需要知道 $f$ 的导数，然后迭代：
 

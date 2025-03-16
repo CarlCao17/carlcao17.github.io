@@ -53,7 +53,7 @@ $$
 - 从 $X_0 \sim \pi$ 开始进行一个 Ornstein-Uhlenbeck process (OU process)，得到 $\{ \overline{X}_t\}$，满足 $\overline{X}_t = e^{-t}X_0 + \sqrt{1 - e^{-2t}}Z_t, Z_t \sim \mathcal{N}(0, 1)$ 为一个标准高斯函数。共进行 $T$ 次，得到一列随机变量 $\{ \overline{X}_t\}_{t \le T}$
 - 记 $q_t$ 为 $\overline{X}_t$ 的分布。在反向过程中
   - 首先取样出 $\tilde{X}_T$
-  - 接着方向计算 $\{ \tilde{X}_t\}$：$\mathrm{d}\tilde{X}_t = \left( \tilde{X}_t + 2 \nabla \log q_{T-t}\left( \tilde{X}_t \right) \right) \mathrm{d}t + \sqrt{2} \mathrm{d}B_t$。这个 OC 反向过程推导较麻烦，参看[课程 note](./lec23-sp24.pdf)
+  - 接着方向计算 $\{ \tilde{X}_t\}$：$\mathrm{d}\tilde{X}_t = \left( \tilde{X}_t + 2 \nabla \log q_{T-t}\left( \tilde{X}_t \right) \right) \mathrm{d}t + \sqrt{2} \mathrm{d}B_t$。这个 OC 反向过程推导较麻烦，请参看课程 note
 
 加噪过程采用数学规律，而去噪过程使用神经网络学习评分函数 $\nabla \log q_{T-t}(\tilde{X}_t)$（因为 $q$ 这些分布是未知的，需要被学习）。
 

@@ -238,6 +238,7 @@ nav:
           - "Martingale": notes/stochastic-progress/Lecture14-Martingale.md
           - "Concentration with Martingale": notes/stochastic-progress/Lecture15-Concentration-with-Martingale.md
           - "Optional Stopping Theorem (OST)": notes/stochastic-progress/Lecture16-Optional-Stopping-Theorem.md
+          - "Brownian Motion": notes/stochastic-progress/Lecture18-Brownian-Motion.md
           - "Informal Definition of Diffusion and Examples": notes/stochastic-progress/Lecture19-Informal-Definition-of-Diffusion-and-Examples.md
           - "Itô Integral, Itô Formula": notes/stochastic-progress/Lecture20-Itô-Integral-Itô-Formula.md
           - "Markov Semigroup": notes/stochastic-progress/Lecture21-Markov-Semigroup.md
@@ -255,6 +256,25 @@ nav:
           - notes/RL/Monte-Carlo-Learning.md
           - notes/RL/Value-or-Policy-Iteration.md
           - notes/RL/Dyna-Q.md
+      - CS236:
+          - notes/CS236/Autoregressive-Flow.md
+          - notes/CS236/Autoregressive-Models.md
+          - notes/CS236/Bayesian-networks.md
+          - notes/CS236/Diffusion-Model.md
+          - notes/CS236/Energy-Based-Model-(EBM).md
+          - notes/CS236/Flow-Contrastive-Estimation.md
+          - notes/CS236/Flow-Models.md
+          - notes/CS236/Gaussian-Perturbation.md
+          - notes/CS236/Gaussianization-Flows.md
+          - notes/CS236/Latent-Variable-Models.md
+          - notes/CS236/Maximum-Likelihood-Learning.md
+          - notes/CS236/Noise-Contrastive-Estimation.md
+          - notes/CS236/Nonlinear-Independent-Components-Estimation-(NICE).md
+          - notes/CS236/Parallel-Wavenet.md
+          - notes/CS236/Real-NVP.md
+          - notes/CS236/Score-Matching.md
+          - notes/CS236/Score-based-Model.md
+          - notes/CS236/Summary.md
   - Blogs:
       - index: blogs/index.md
   - Summaries:
