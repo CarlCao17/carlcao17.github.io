@@ -8,7 +8,7 @@ icon: /fontawesome/solid/face-smile-wink
 
     你好！我是 Kinnari，上海交通大学 23 级人工智能专业的本科生。很高兴能在互联网上与你相遇🥰。
 
-    我对深度学习、大模型和机器学习系统等领域很有热情，也喜欢分享自己的学习经验和思考🤓。如果感兴趣，可以看看我的 [aiTour](https://aitour.icu/) 或[知乎](https://www.zhihu.com/people/Kinnariya)，也许会找到一些对你有帮助的内容。
+    我对深度学习、大模型和机器学习系统等领域很有热情，也喜欢分享自己的学习经验和思考🤓。如果感兴趣，可以看看我的 [aiTour](https://aitour.site/) 或[知乎](https://www.zhihu.com/people/Kinnariya)，也许会找到一些对你有帮助的内容。
 
     想了解我的学术经历？可以查看我的[学术主页🎓](../academy.md)。
 
@@ -36,7 +36,7 @@ icon: /fontawesome/solid/face-smile-wink
 
     Hi! I’m Kinnari, an undergraduate student majoring in Artificial Intelligence at Shanghai Jiao Tong University (Class of 2023). It’s a pleasure to meet you here🥰.
 
-    I am passionate about deep learning, large models, and machine learning systems, and I enjoy sharing my learning experiences and insights🤓. You can check out my [aiTour](https://aitour.icu/) or [ZhiHu](https://www.zhihu.com/people/Kinnariya) (both in Chinese) for useful resources.
+    I am passionate about deep learning, large models, and machine learning systems, and I enjoy sharing my learning experiences and insights🤓. You can check out my [aiTour](https://aitour.site/) or [ZhiHu](https://www.zhihu.com/people/Kinnariya) (both in Chinese) for useful resources.
 
     For more academic details, please visit my [academic page 🎓](../academy.md).
 

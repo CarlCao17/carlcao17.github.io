@@ -1,13 +1,10 @@
 ---
 title: Review of Probability
-date created: 星期日, 九月 15日 2024, 1:54:47 下午
-date modified: 星期三, 九月 25日 2024, 2:54:39 下午
-tags: [stochastic-progress]
+tags:
+  - stochastic-progress
 math: true
-modified: 星期五, 二月 28日 2025, 4:52:02 下午
 ---
-
-## The Probability Space
+ ## The Probability Space
 
 > [!note] $\sigma$-Algebra
 > 对于集合 $\Omega$, 以及 $\mathcal{F} \in 2^{\Omega}$，如果满足：

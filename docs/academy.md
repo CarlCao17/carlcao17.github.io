@@ -38,9 +38,6 @@ I am a second-year undergraduate student majoring in Artificial Intelligence at 
 
 ## News
 
-<!-- === "2025" -->
-<!---->
-<!--     [01/2025] I became an intern in [GAIR](https://plms.ai/index.html), advised by Prof. [Pengfei Liu](http://pfliu.com/). -->
 
 === "2024"
 
@@ -129,7 +126,7 @@ An open-source GitHub page built for reference in self-learning of artificial in
 
 ## Media Exposures
 
-I write articles and share my thinkings on [Zhihu](https://www.zhihu.com/people/Kinnariya) regularly and have 100+ followers so far!
+I write articles and share my thinkings on [Zhihu](https://www.zhihu.com/people/Kinnariya) regularly and have 150+ followers so far!
 
 ## Honors
 

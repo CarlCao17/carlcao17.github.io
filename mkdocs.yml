@@ -220,16 +220,33 @@ nav:
           - "6 Processor Design": notes/cs61c/6-processor-design.md
           - "7 Pipeline": notes/cs61c/7-pipeline.md
           - "8 Cache": notes/cs61c/8-cache.md
+          - "9 Parallelism": notes/cs61c/9-parallelism.md
       - 6.s081:
           - "1 Intro": notes/6.s081/1-intro.md
       - SJTU 随机过程:
           - "Lecture0 Review of Probability": notes/stochastic-progress/Lecture0-Review-of-Probability.md
           - "Lecture3 Concentration Inequalities": notes/stochastic-progress/Lecture3-Concentration-Inequalities.md
+          - "Lecture4 Markov Chains with Finite States": notes/stochastic-progress/Lecture4-Markov-Chains-with-Finite-States.md
+          - "Lecture5 Coupling, Fundamental Theorem of Markov Chains": notes/stochastic-progress/Lecture5-Coupling-Fundamental-Theorem-of-Markov-Chains.md
+          - "Lecture6 Mixing Time of Markov Chains": notes/stochastic-progress/Lecture6-Mixing-Time-of-Markov-Chains.md
+      - CSE234:
+          - notes/cse234/lec2.md
+      - 强化学习:
+          - notes/RL/Stochastic-Approximation.md
+          - notes/RL/Actor-Critic.md
+          - notes/RL/Temporal-Difference-Learning.md
+          - notes/RL/Value-Function-Approximation.md
+          - notes/RL/Policy-Function-Approximation.md
+          - notes/RL/Bellman-Optimal-Equation.md
+          - notes/RL/Monte-Carlo-Learning.md
+          - notes/RL/Value-or-Policy-Iteration.md
+          - notes/RL/Dyna-Q.md
   - Blogs:
       - index: blogs/index.md
   - Summaries:
       - index: summary/index.md
       - "2025":
+          - "一周总结与回顾-3": summary/2025/summary-3.md
           - "一周总结与回顾-2": summary/2025/summary-2.md
           - "一周总结与回顾-1": summary/2025/summary-1.md
           - "大二下规划": summary/2025/semester-plan.md
