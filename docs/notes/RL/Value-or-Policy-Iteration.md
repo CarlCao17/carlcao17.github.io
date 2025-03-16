@@ -35,7 +35,7 @@ $$
 
 ![](https://cdn.jsdelivr.net/gh/KinnariyaMamaTanha/Images@main/202409082031937.png)
 
-实际上，value iteration 一般直接对 value 进行更新，
+实际上，value iteration 一般直接对 value 进行更新（隐式地维护策略），
 
 $$
 V_{k+1}(s) = \max_{a}\sum_{s'}P(s'\mid s, a) \left[ R(s,a,s') + \gamma V_{k}(s') \right] 

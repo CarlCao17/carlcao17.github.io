@@ -224,11 +224,25 @@ nav:
       - 6.s081:
           - "1 Intro": notes/6.s081/1-intro.md
       - SJTU 随机过程:
-          - "Lecture0 Review of Probability": notes/stochastic-progress/Lecture0-Review-of-Probability.md
-          - "Lecture3 Concentration Inequalities": notes/stochastic-progress/Lecture3-Concentration-Inequalities.md
-          - "Lecture4 Markov Chains with Finite States": notes/stochastic-progress/Lecture4-Markov-Chains-with-Finite-States.md
-          - "Lecture5 Coupling, Fundamental Theorem of Markov Chains": notes/stochastic-progress/Lecture5-Coupling-Fundamental-Theorem-of-Markov-Chains.md
-          - "Lecture6 Mixing Time of Markov Chains": notes/stochastic-progress/Lecture6-Mixing-Time-of-Markov-Chains.md
+          - "Review of Probability": notes/stochastic-progress/Lecture0-Review-of-Probability.md
+          - "Concentration Inequalities": notes/stochastic-progress/Lecture3-Concentration-Inequalities.md
+          - "Markov Chains with Finite States": notes/stochastic-progress/Lecture4-Markov-Chains-with-Finite-States.md
+          - "Coupling, Fundamental Theorem of Markov Chains": notes/stochastic-progress/Lecture5-Coupling-Fundamental-Theorem-of-Markov-Chains.md
+          - "Mixing Time of Markov Chains": notes/stochastic-progress/Lecture6-Mixing-Time-of-Markov-Chains.md
+          - "Chains with Infinite States": notes/stochastic-progress/Lecture7-Chains-with-Infinite-States.md
+          - "Recurrence and Positive Recurrence": notes/stochastic-progress/Lecture8-Recurrence-and-Positive-Recurrence.md
+          - "Fundamental Theorem of Markov Chains (General Version)": notes/stochastic-progress/Lecture9-Fundamental-Theorem-of-Markov-Chains-(General-Version).md
+          - "Poisson Distribution, Poisson Processes": notes/stochastic-progress/Lecture10-Poisson-Distribution-Poisson-Processes.md
+          - "Poisson Approximation": notes/stochastic-progress/Lecture12-Poisson-Approximation.md
+          - "Conditional Expectation": notes/stochastic-progress/Lecture13-Conditional-Expectation.md
+          - "Martingale": notes/stochastic-progress/Lecture14-Martingale.md
+          - "Concentration with Martingale": notes/stochastic-progress/Lecture15-Concentration-with-Martingale.md
+          - "Optional Stopping Theorem (OST)": notes/stochastic-progress/Lecture16-Optional-Stopping-Theorem.md
+          - "Informal Definition of Diffusion and Examples": notes/stochastic-progress/Lecture19-Informal-Definition-of-Diffusion-and-Examples.md
+          - "Itô Integral, Itô Formula": notes/stochastic-progress/Lecture20-Itô-Integral-Itô-Formula.md
+          - "Markov Semigroup": notes/stochastic-progress/Lecture21-Markov-Semigroup.md
+          - "Kolmogorov Forward or Backward Equations": notes/stochastic-progress/Lecture22-Kolmogorov-Forward-or-Backward-Equations.md
+          - "Convergence of Langevin Diffusion, DDPM": notes/stochastic-progress/Lecture23-Convergence-of-Langevin-Diffusion-DDPM.md
       - CSE234:
           - notes/cse234/lec2.md
       - 强化学习:
