@@ -6,7 +6,7 @@ icon: /fontawesome/solid/face-smile-wink
 
 === "中文"
 
-    你好！我是 Kinnari，上海交通大学 23 级人工智能专业的本科生。很高兴能在互联网上与你相遇🥰。
+    你好！我是 Carl Cao，是一名服务端工程师，就职于字节跳动。很高兴能在互联网上与你相遇🥰。
 
     我对深度学习、大模型和机器学习系统等领域很有热情，也喜欢分享自己的学习经验和思考🤓。如果感兴趣，可以看看我的 [aiTour](https://aitour.site/) 或[知乎](https://www.zhihu.com/people/Kinnariya)，也许会找到一些对你有帮助的内容。
 
