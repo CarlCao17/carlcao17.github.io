@@ -7,3 +7,5 @@ mkdocs-glightbox
 mkdocs-video
 # mkdocs-rss-plugin
 # rich # for mkdocs-toc-plugin
+mkdocs-pdf-export-plugin
+mkdocs-statistics-plugin
