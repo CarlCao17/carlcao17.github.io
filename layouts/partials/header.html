@@ -1,0 +1,6 @@
+<div class="header">
+<h1 class="header-title"><a href="/">{{ site.Title }}</a></h1>
+<nav class="header-menu" aria-label="主导航">
+{{ range site.Params.menu }}<a href="{{ .url }}"{{ if eq $.RelPermalink .url }} aria-current="page"{{ end }}>/{{ .name }}</a>{{ end }}
+</nav>
+</div>

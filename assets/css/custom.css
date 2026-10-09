@@ -1,0 +1,29 @@
+/* Site overrides; upstream Typo remains vendored unchanged. */
+:root { --main-width: 1040px; --font-body: Georgia, "Songti SC", "Noto Serif CJK SC", "SimSun", serif; --p-line-height: 1.85; --site-border: light-dark(#aaa, #585858); }
+body { font-size: 18px; color: var(--content-primary); }
+.header { margin-top: 54px; margin-bottom: 58px; }
+.header-title { font-size: 2.75rem; font-weight: 700; letter-spacing: -1.4px; }
+.header-menu { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-top: 18px; font-family: var(--font-mono); font-size: 14px; }
+.header-menu a[aria-current] { font-weight: 700; }
+.home-grid { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 48px; }
+.intro h1 { margin-top: 0; }
+.intro p { margin: 18px 0; }
+.home-sidebar { padding-top: 4px; }
+.sidebar-card { border: 1px solid var(--site-border); border-radius: 7px; padding: 19px; margin-bottom: 22px; font-size: 14px; line-height: 1.65; }
+.sidebar-card h2 { font-size: 19px; margin: 0 0 14px; }
+.sidebar-card p { margin: 12px 0; }
+.plain-list { list-style: none; padding: 0; margin: 0; }
+.plain-list li { margin: 10px 0; }
+.post-entry { display: flex; align-items: baseline; gap: 20px; margin: 16px 0; }
+.post-entry time { flex: 0 0 96px; font-family: var(--font-mono); font-size: 13px; color: var(--content-secondary); }
+.post-entry a { font-size: 19px; line-height: 1.6; }
+.all-posts { margin-top: 28px; font-size: 15px; }
+.main:has(article), .main:has(#search-input) { max-width: 780px; }
+.toc { border-left: 2px solid var(--site-border); padding-left: 20px; font-size: 15px; }
+pre { font-size: 14px; line-height: 1.6; }
+.footer-line { padding: 32px 16px; font-size: 12px; text-align: center; line-height: 1.8; }
+.muted { color: var(--content-secondary); font-size: 15px; }
+#search-input { width: 100%; padding: 12px; margin: 12px 0; border: 1px solid var(--site-border); border-radius: 5px; color: inherit; background: transparent; font: inherit; box-sizing: border-box; }
+.search-results { line-height: 2; }
+@media (max-width: 800px) { .home-grid { grid-template-columns: 1fr; gap: 28px; } .home-sidebar { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; } .header { margin-top: 28px; margin-bottom: 36px; } }
+@media (max-width: 480px) { body { font-size: 17px; } .header-title { font-size: 2.3rem; } .home-sidebar { grid-template-columns: 1fr; } .post-entry { gap: 12px; } .post-entry time { flex-basis: 82px; font-size: 11px; } .post-entry a { font-size: 17px; } }

@@ -1,0 +1,5 @@
+{{ $tag := .Get 0 }}
+{{ $pages := where (where site.RegularPages "Section" "posts") "Params.tags" "intersect" (slice $tag) }}
+{{ if $pages }}
+<ul>{{ range $pages.ByDate.Reverse }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
+{{ else }}<p class="muted">文章整理中，后续更新会汇集在这里。</p>{{ end }}

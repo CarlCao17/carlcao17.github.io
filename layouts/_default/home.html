@@ -1,0 +1,36 @@
+{{ define "main" }}
+<div class="home-grid">
+  <div class="home-main">
+    <section class="intro">
+      <h1>你好！</h1>
+      <p>我是 <strong>Carl</strong>。这里整理我的编程实践、源码阅读和学习笔记。</p>
+      <p>关注 Go、软件设计与计算机系统。把零散的记录写成文章，也把理解问题的过程留在这里。</p>
+      <p>在 <a href="https://github.com/CarlCao17">GitHub</a> 找到我 · <a href="/about/">关于这个博客</a> · <a href="/index.xml">RSS</a></p>
+    </section>
+    <section class="list-container" aria-labelledby="posts-heading">
+      <h1 id="posts-heading">文章</h1>
+      {{ range first 12 (where site.RegularPages "Section" "posts").ByDate.Reverse }}
+      {{ partial "post-entry.html" . }}
+      {{ end }}
+      <p class="all-posts"><a href="/posts/">全部文章 →</a></p>
+    </section>
+  </div>
+  <aside class="home-sidebar" aria-label="专题与项目">
+    <section class="sidebar-card">
+      <h2>专题笔记</h2>
+      <p>沿着一个主题，慢慢向下探索。</p>
+      <ul class="plain-list">
+        <li><a href="/topics/go/">Go 与软件设计</a></li>
+        <li><a href="/topics/systems/">计算机系统</a></li>
+        <li><a href="/topics/engineering/">工程与学习</a></li>
+      </ul>
+    </section>
+    <section class="sidebar-card">
+      <h2>公开项目</h2>
+      <p><a href="https://github.com/CarlCao17/6.S081">MIT 6.S081</a><br>操作系统学习仓库</p>
+      <p><a href="https://github.com/CarlCao17/Records-of-CSAPP">CSAPP 阅读记录</a><br>理解计算机系统</p>
+      <p><a href="/projects/">查看全部项目 →</a></p>
+    </section>
+  </aside>
+</div>
+{{ end }}

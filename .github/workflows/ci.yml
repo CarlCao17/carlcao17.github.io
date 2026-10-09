@@ -1,36 +1,50 @@
-name: ci
+name: Blog checks and Pages deployment
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          fetch-depth: 0
-      - name: Configure Git Credentials
+          python-version: '3.12'
+      - run: python -m pip install -r scripts/requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - name: Install pinned Hugo
         run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - uses: actions/setup-python@v4
+          curl --fail --location --retry 3 -o "$RUNNER_TEMP/hugo.tar.gz" https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_linux-amd64.tar.gz
+          curl --fail --location --retry 3 -o "$RUNNER_TEMP/checksums.txt" https://github.com/gohugoio/hugo/releases/download/v0.167.0/hugo_0.167.0_checksums.txt
+          cd "$RUNNER_TEMP"
+          grep '  hugo_0.167.0_linux-amd64.tar.gz$' checksums.txt | sed 's/hugo_0.167.0_linux-amd64.tar.gz/hugo.tar.gz/' | sha256sum --check --strict
+          mkdir hugo-bin
+          tar -xzf hugo.tar.gz -C hugo-bin
+          echo "$RUNNER_TEMP/hugo-bin" >> "$GITHUB_PATH"
+      - run: hugo --gc --minify --cleanDestinationDir
+      - run: python scripts/check_site.py public
+      - uses: actions/upload-pages-artifact@v3
         with:
-          python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
-      - uses: actions/cache@v3
-        with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
-          restore-keys: |
-            mkdocs-material-
-      - run: pip install -r requirements.txt
-      - name: Install modified mkdocs-statistics-plugin
-        run: |
-          git clone https://github.com/KinnariyaMamaTanha/mkdocs-statistics-plugin
-          pip install ./mkdocs-statistics-plugin
-          rm -rf mkdocs-statistics-plugin
-      - run: pip cache purge
-      - run: mkdocs gh-deploy --force
+          path: public
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
