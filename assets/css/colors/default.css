@@ -1,0 +1,13 @@
+/* Accessible colors for the system-following light and dark palettes. */
+:root {
+  --content-primary-light: #393939;
+  --content-secondary-light: #666;
+  --background-light: #fff;
+  --code-background-light: #f9f9f9;
+  --code-border-light: #e5e5e5;
+  --content-primary-dark: #dadada;
+  --content-secondary-dark: #a8a8a8;
+  --background-dark: #141414;
+  --code-background-dark: #1e1e1e;
+  --code-border-dark: #323232;
+}

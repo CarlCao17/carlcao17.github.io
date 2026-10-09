@@ -9,7 +9,7 @@ enableRobotsTXT = true
 [params]
 description = 'Carl 的编程实践、源码阅读和学习笔记。'
 author = 'Carl'
-theme = 'light'
+theme = 'auto'
 colorPalette = 'default'
 homeCollection = 'posts'
 homeCollectionTitle = '文章'
