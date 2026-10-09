@@ -1,0 +1,56 @@
+baseURL = 'https://carlcao17.github.io/'
+locale = 'zh-CN'
+defaultContentLanguage = 'zh'
+title = 'Carl’s notes'
+theme = 'typo'
+timeZone = 'Asia/Shanghai'
+enableRobotsTXT = true
+
+[params]
+description = 'Carl 的编程实践、源码阅读和学习笔记。'
+author = 'Carl'
+theme = 'light'
+colorPalette = 'default'
+homeCollection = 'posts'
+homeCollectionTitle = '文章'
+paginationSize = 15
+listDateFormat = '2006-01-02'
+singleDateFormat = '2006-01-02'
+readTime = true
+showTags = true
+toc = true
+hidePagination = true
+math = false
+
+[params.breadcrumbs]
+enabled = false
+
+[[params.menu]]
+name = '首页'
+url = '/'
+[[params.menu]]
+name = '文章'
+url = '/posts/'
+[[params.menu]]
+name = '专题'
+url = '/topics/'
+[[params.menu]]
+name = '项目'
+url = '/projects/'
+[[params.menu]]
+name = '关于'
+url = '/about/'
+[[params.menu]]
+name = '搜索'
+url = '/search/'
+
+[outputs]
+home = ['HTML', 'RSS', 'JSON']
+
+[markup.highlight]
+noClasses = false
+[markup.goldmark.renderer]
+unsafe = false
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3

@@ -1,2 +1,8 @@
-.cache
-site
+public/
+resources/
+.hugo_build.lock
+.DS_Store
+.history/
+__pycache__/
+.venv/
+.local/

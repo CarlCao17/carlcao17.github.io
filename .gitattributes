@@ -1,0 +1,2 @@
+# Preserve upstream theme source formatting.
+themes/typo/** -whitespace
