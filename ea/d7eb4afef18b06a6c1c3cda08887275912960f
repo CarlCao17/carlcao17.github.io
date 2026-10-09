@@ -1,0 +1,25 @@
+assets/css/custom.css
+  s_ddaddfd4129c08::t_5019643c0f1f66 2-3,12,18,22,25-26
+docs-maintenance/管理博客.md
+  s_ddaddfd4129c08::t_5019643c0f1f66 69-70
+hugo.toml
+  s_ddaddfd4129c08::t_5019643c0f1f66 12
+assets/css/colors/default.css
+  s_ddaddfd4129c08::t_5019643c0f1f66 1-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "ead7eb4afef18b06a6c1c3cda08887275912960f",
+  "prompts": {},
+  "sessions": {
+    "s_ddaddfd4129c08": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a11f57-aaa6-7360-a46e-64182e137578",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "jiuye.caozhengsheng <caozhengsheng@xiaohongshu.com>"
+    }
+  }
+}
