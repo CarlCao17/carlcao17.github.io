@@ -1,0 +1,191 @@
+docs-maintenance/管理博客.md
+  s_ddaddfd4129c08::t_09e7493cc8594d 1-82
+scripts/check_site.py
+  s_ddaddfd4129c08::t_a84ae92f178d72 1-61
+scripts/export_obsidian.py
+  s_ddaddfd4129c08::t_dd9db47a18dbcd 1-179,181-189,191-193,196-260
+  s_ddaddfd4129c08::t_a84ae92f178d72 180,194-195
+  s_ddaddfd4129c08::t_4e277dc73ab7d4 190
+layouts/_default/single.html
+  s_ddaddfd4129c08::t_fc3986ce31594d 1-116
+tests/test_export_obsidian.py
+  s_ddaddfd4129c08::t_fc3986ce31594d 106-121
+  s_ddaddfd4129c08::t_dd9db47a18dbcd 1-99,122-125
+  s_ddaddfd4129c08::t_4e277dc73ab7d4 100-105
+scripts/blog.sh
+  s_ddaddfd4129c08::t_09e7493cc8594d 1-45
+hugo.toml
+  s_ddaddfd4129c08::t_fc3986ce31594d 1-56
+.gitattributes
+  s_ddaddfd4129c08::t_266e78357564d8 1-2
+.github/workflows/ci.yml
+  s_ddaddfd4129c08::t_5b7c89a4974888 1,4-7,9-12,14,18,20-23,25-34,36-50
+.gitignore
+  s_ddaddfd4129c08::t_bc232ca180e487 1-8
+README.md
+  s_ddaddfd4129c08::t_ea2e4924ecf90c 1,3,5-39
+archetypes/posts.md
+  s_ddaddfd4129c08::t_b4864b192b5f71 1-13
+assets/css/custom.css
+  s_ddaddfd4129c08::t_d3ba8800049573 1-29
+content/about/index.md
+  s_ddaddfd4129c08::t_1677c854eb1c9d 1-11
+content/posts/_index.md
+  s_ddaddfd4129c08::t_472fb23e2c6c91 1-4
+content/posts/hello/index.md
+  s_ddaddfd4129c08::t_d77cc26b489ed2 1-22
+content/projects/index.md
+  s_ddaddfd4129c08::t_243cbbd5e23a30 1-22
+content/search/index.md
+  s_ddaddfd4129c08::t_daf7e609fdf792 1-5
+content/topics/_index.md
+  s_ddaddfd4129c08::t_ec4243a5a525a0 1-4
+content/topics/engineering.md
+  s_ddaddfd4129c08::t_bf598dac32b9a1 1-7
+content/topics/go.md
+  s_ddaddfd4129c08::t_6f7d45eb10c26f 1-7
+content/topics/systems.md
+  s_ddaddfd4129c08::t_2cc730e7cfe0f3 1-9
+layouts/_default/baseof.html
+  s_ddaddfd4129c08::t_8c114a35f4949c 1-36
+layouts/_default/home.html
+  s_ddaddfd4129c08::t_38fe9308c39b25 1-36
+layouts/_default/search.html
+  s_ddaddfd4129c08::t_80e01ecf92f37e 1-8
+layouts/index.json
+  s_ddaddfd4129c08::t_12bcc662f90e85 1-5
+layouts/partials/footer.html
+  s_ddaddfd4129c08::t_cbd6f0ba6dcfaf 1
+layouts/partials/head.html
+  s_ddaddfd4129c08::t_9fe39b6e32cc80 1-47
+layouts/partials/header.html
+  s_ddaddfd4129c08::t_093124bf4421ae 1-6
+layouts/partials/opengraph.html
+  s_ddaddfd4129c08::t_a017aa6b28e95d 1-97
+layouts/partials/post-entry.html
+  s_ddaddfd4129c08::t_3080e30711e6b1 1-4
+layouts/shortcodes/topic.html
+  s_ddaddfd4129c08::t_5a0aa154ee9554 1-5
+legacy/README.md
+  s_ddaddfd4129c08::t_ad9167a8f629c2 1-7
+scripts/requirements.txt
+  s_ddaddfd4129c08::t_31e514709069c2 1
+static/favicon.svg
+  s_ddaddfd4129c08::t_ed0d6a55c17344 1
+static/js/search.js
+  s_ddaddfd4129c08::t_9aa064c2453013 1-22
+themes/typo/LICENSE
+  s_ddaddfd4129c08::t_ad0b49990732a8 1-21
+themes/typo/UPSTREAM.md
+  s_ddaddfd4129c08::t_792b1fe531b520 1-4
+themes/typo/assets/css/colors/base16-cupcake.css
+  s_ddaddfd4129c08::t_2d7b27e61ba4d1 1-13
+themes/typo/assets/css/colors/base16-default.css
+  s_ddaddfd4129c08::t_9f438ef20966ae 1-13
+themes/typo/assets/css/colors/base16-eighties.css
+  s_ddaddfd4129c08::t_2aaf443e8d1e38 1-13
+themes/typo/assets/css/colors/base16-mocha.css
+  s_ddaddfd4129c08::t_fdd752246b0d7d 1-13
+themes/typo/assets/css/colors/base16-ocean.css
+  s_ddaddfd4129c08::t_231f22bd075777 1-13
+themes/typo/assets/css/colors/catpuccin.css
+  s_ddaddfd4129c08::t_ab9a976aafcef1 1-13
+themes/typo/assets/css/colors/default.css
+  s_ddaddfd4129c08::t_edbf26b6616d12 1-13
+themes/typo/assets/css/colors/eink.css
+  s_ddaddfd4129c08::t_1fc2979eaf4bd8 1-13
+themes/typo/assets/css/colors/gruvebox.css
+  s_ddaddfd4129c08::t_10c2bc4c880297 1-13
+themes/typo/assets/css/custom.css
+  s_ddaddfd4129c08::t_b3880427c1254c 1
+themes/typo/assets/css/fonts.css
+  s_ddaddfd4129c08::t_df9ff10addf40e 1-47
+themes/typo/assets/css/main.css
+  s_ddaddfd4129c08::t_0410123bf8f332 1-668
+themes/typo/assets/css/reset.css
+  s_ddaddfd4129c08::t_01ce1bbb6269ec 1-120
+themes/typo/assets/css/syntax-highlighting.css
+  s_ddaddfd4129c08::t_5fdf42db12c313 1-258
+themes/typo/assets/css/utils.css
+  s_ddaddfd4129c08::t_388247289f0652 1-25
+themes/typo/assets/css/vars.css
+  s_ddaddfd4129c08::t_d579aa31631a11 1-83
+themes/typo/layouts/404.html
+  s_ddaddfd4129c08::t_53770b299ad5d0 1-12
+themes/typo/layouts/_default/_markup/render-codeblock-mermaid.html
+  s_ddaddfd4129c08::t_d144c932a98d63 1-4
+themes/typo/layouts/_default/_markup/render-codeblock.html
+  s_ddaddfd4129c08::t_5d7dcdc5218e1a 1-6
+themes/typo/layouts/_default/_markup/render-heading.html
+  s_ddaddfd4129c08::t_d881f0dd4f7577 1-4
+themes/typo/layouts/_default/_markup/render-image.html
+  s_ddaddfd4129c08::t_d22b5250d8d842 1-67
+themes/typo/layouts/_default/_markup/render-table.html
+  s_ddaddfd4129c08::t_c5d653bdf731ee 1-44
+themes/typo/layouts/_default/baseof.html
+  s_ddaddfd4129c08::t_8d1a159df55f4f 1-36
+themes/typo/layouts/_default/home.html
+  s_ddaddfd4129c08::t_f49cdf71b7db8e 1-61
+themes/typo/layouts/_default/list.html
+  s_ddaddfd4129c08::t_190dfca5eef1c0 1-32
+themes/typo/layouts/_default/single.html
+  s_ddaddfd4129c08::t_47cd115ed5d07c 1-116
+themes/typo/layouts/partials/breadcrumbs.html
+  s_ddaddfd4129c08::t_0a48d962874cd1 1-23
+themes/typo/layouts/partials/comments.html
+  s_ddaddfd4129c08::t_6376af96b17551 1-16
+themes/typo/layouts/partials/footer.html
+  s_ddaddfd4129c08::t_0a173b13fc00a1 1-17
+themes/typo/layouts/partials/functions/get_hook.html
+  s_ddaddfd4129c08::t_6dff2b309279e5 1-19
+themes/typo/layouts/partials/head.html
+  s_ddaddfd4129c08::t_42f09f5ca54497 1-53
+themes/typo/layouts/partials/head/css.html
+  s_ddaddfd4129c08::t_656411d12d91db 1-26
+themes/typo/layouts/partials/head/js.html
+  s_ddaddfd4129c08::t_3557b7b3b19199 1-7
+themes/typo/layouts/partials/head/og-image.html
+  s_ddaddfd4129c08::t_39af036a1f66c3 1-5
+themes/typo/layouts/partials/header.html
+  s_ddaddfd4129c08::t_b6315c1390858b 1-30
+themes/typo/layouts/partials/math.html
+  s_ddaddfd4129c08::t_39a614a45a7572 1-20
+themes/typo/layouts/partials/opengraph.html
+  s_ddaddfd4129c08::t_bade422d5a31f1 1-97
+themes/typo/layouts/partials/pagination-controls.html
+  s_ddaddfd4129c08::t_d40c3f9edace8d 1-23
+themes/typo/layouts/partials/pagination-single.html
+  s_ddaddfd4129c08::t_c87a3abf0775b2 1-39
+themes/typo/layouts/partials/post-entry.html
+  s_ddaddfd4129c08::t_a8eb30545e0bc2 1-20
+themes/typo/layouts/partials/svg.html
+  s_ddaddfd4129c08::t_acabce4bf0cc05 1-6562
+themes/typo/layouts/partials/tag-entry.html
+  s_ddaddfd4129c08::t_8ae9209acc58fc 1-7
+themes/typo/layouts/partials/umami.html
+  s_ddaddfd4129c08::t_de0507f48beeb1 1-6
+themes/typo/layouts/shortcodes/rawhtml.html
+  s_ddaddfd4129c08::t_56e27b0adbb633 1
+themes/typo/static/js/copy-code.js
+  s_ddaddfd4129c08::t_d522c011f59084 1-29
+themes/typo/static/js/mermaid.js
+  s_ddaddfd4129c08::t_4c227e3c40c957 1-35
+themes/typo/theme.toml
+  s_ddaddfd4129c08::t_e392f2997496a2 1-36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "1bcbfb9d27e5338d634eac181c3f5266f60a9cff",
+  "prompts": {},
+  "sessions": {
+    "s_ddaddfd4129c08": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a11f57-aaa6-7360-a46e-64182e137578",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "jiuye.caozhengsheng <caozhengsheng@xiaohongshu.com>"
+    }
+  }
+}
